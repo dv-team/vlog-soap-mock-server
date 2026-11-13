@@ -1,0 +1,17 @@
+{
+  "name": "vlog-soap-mock-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "saxes": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,26 @@
+# Allowlist: only files intended for distributing and testing the mock.
+# Internal docs, AI instructions, local originals, secrets and tooling stay local.
+*
+!/.gitignore
+!/.dockerignore
+!/Dockerfile
+!/docker-compose.yml
+!/README.md
+!/package.json
+!/bun.lock
+!/tsconfig.json
+!/src/
+!/src/mock.ts
+!/src/server.ts
+!/src/xml.ts
+!/test/
+!/test/mock.test.ts
+!/fixtures/
+!/fixtures/request.xml
+!/fixtures/success.xml
+!/fixtures/command-701.xml
+!/fixtures/mandant.xml
+!/fixtures/carrier.xml
+!/fixtures/product.xml
+!/fixtures/weight-text.xml
+!/fixtures/faults.json

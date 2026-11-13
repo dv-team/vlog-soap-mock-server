@@ -1,0 +1,18 @@
+{
+  "inner-xml": {
+    "code": "a:InternalServiceFault",
+    "message": "Eine Ausnahme vom Typ \"MHP.Framework.Common.SharedLibs.LocalizableMessages.FrameworkException\" wurde ausgelöst.\r\nDecodierung fehlgeschlagen (100100043)\r\nAus dem angegegebenen Text kann kein WorkItem erzeugt werden."
+  },
+  "outer-xml": {
+    "code": "a:DeserializationFailed",
+    "message": "Der Formatierer hat beim Deserialisieren der Nachricht eine Ausnahme ausgelöst: Fehler beim Deserialisieren des Textkörpers der Anforderungsnachricht für Vorgang \"Execute\". Startelement \"soapenv:Body\" entspricht nicht Endelement \"soapenv:Wrong\". Zeile 36, Position 18."
+  },
+  "namespace": {
+    "code": "a:InternalServiceFault",
+    "message": "Fehler beim Deserialisieren des Textkörpers der Anforderungsnachricht für Vorgang \"Execute\". Bei OperationFormatter ist ein ungültiger Nachrichtenkörper vorhanden. Es wird erwartet, den Knotentyp \"Element\" mit dem Namen \"Execute\" und Namespace \"http://mhp-net.de/services/workflowexecutor\" zu finden. Gefunden wurde Knotentyp \"Element\" mit dem Namen \"wor:Execute\" und Namespace \"urn:wrong\"."
+  },
+  "soapaction": {
+    "code": "a:ActionNotSupported",
+    "message": "Die Nachricht mit Action \"urn:wrong\" kann aufgrund einer fehlenden ContractFilter-Übereinstimmung beim EndpointDispatcher nicht verarbeitet werden. Mögliche Ursachen: Vertragskonflikt (keine Action-Übereinstimmung zwischen Sender und Empfänger) oder ein Bindung/Sicherheit-Konflikt zwischen dem Sender und dem Empfänger.  Stellen Sie sicher, dass Sender und Empfänger über den gleichen Vertrag und die gleiche Bindung verfügen (einschließlich Sicherheitsanforderungen, z. B. \"Message\", \"Transport\", \"None\")."
+  }
+}

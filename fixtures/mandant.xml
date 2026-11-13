@@ -1,0 +1,377 @@
+<workitem>
+  <shipment collection="true">
+    <collection_index>1</collection_index>
+    <send_mandant>799</send_mandant>
+    <int_arbeitsplatz>MOCK-PC01</int_arbeitsplatz>
+    <send_referenznr_01>TEST-ORDER-0001</send_referenznr_01>
+    <send_referenznr_02>TEST-ORDER-0002</send_referenznr_02>
+    <send_referenznr_03>TEST-ORDER-0001</send_referenznr_03>
+    <send_referenznr_05>TEST-ORDER-0002</send_referenznr_05>
+    <send_anz>1</send_anz>
+    <frachtfuehrer>DPA</frachtfuehrer>
+    <empf_kdnr>100000</empf_kdnr>
+    <empf_adr_01>Max Mustermann</empf_adr_01>
+    <empf_adr_02 />
+    <empf_strasse>Musterstr.</empf_strasse>
+    <empf_ort>Musterstadt</empf_ort>
+    <empf_plz>12345</empf_plz>
+    <empf_land_kurz>ES</empf_land_kurz>
+    <empf_steuernr />
+    <empf_mail>recipient@example.invalid</empf_mail>
+    <empf_tel />
+    <package collection="true">
+      <collection_index>1</collection_index>
+      <send_referenznr_06 />
+      <send_gewichteinzel>2.32</send_gewichteinzel>
+      <send_2n_prodcode>18</send_2n_prodcode>
+      <send_hilf_11 />
+      <document_count>0</document_count>
+      <unmapped_send_2n_prodcode>STD</unmapped_send_2n_prodcode>
+      <processid>00000000-0000-4000-8000-000000000000</processid>
+      <tmp_send_2n_prodcode>STD</tmp_send_2n_prodcode>
+      <tmp_send_versandart />
+      <frachtfuehrer>DPA</frachtfuehrer>
+      <send_regioncode>2</send_regioncode>
+      <send_versandart>1</send_versandart>
+      <send_nr>1</send_nr>
+      <package_status>999</package_status>
+      <int_ok>False</int_ok>
+      <int_gesperrt>False</int_gesperrt>
+      <send_volumen>0</send_volumen>
+      <send_laenge_sorted>0</send_laenge_sorted>
+      <send_breite_sorted>0</send_breite_sorted>
+      <send_hoehe_sorted>0</send_hoehe_sorted>
+      <send_laenge>0</send_laenge>
+      <send_breite>0</send_breite>
+      <send_hoehe>0</send_hoehe>
+      <send_nr_beforesplit>1</send_nr_beforesplit>
+      <gg_anzpos>0</gg_anzpos>
+      <lq_anzpos>0</lq_anzpos>
+      <package_contains_only_lq>True</package_contains_only_lq>
+      <zoll_anzpos>0</zoll_anzpos>
+      <package_volumne>0</package_volumne>
+      <package_gurtmaß>0</package_gurtmaß>
+      <services>European - Weltpaket Premium</services>
+      <dpa_abs_iso>276</dpa_abs_iso>
+      <dpa_abs_land_kurz>DE</dpa_abs_land_kurz>
+      <dpa_abs_land>Deutschland</dpa_abs_land>
+      <mhp>
+        <validation>
+          <appliedrules collection="true">
+            <collection_index>1</collection_index>
+            <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+          </appliedrules>
+          <appliedrules_count>1</appliedrules_count>
+        </validation>
+      </mhp>
+      <versanddaten_id>1000001</versanddaten_id>
+      <package_fehlertext>Ungültige Sendungsdaten (100100228)
+
+Ungültige Sendungsdaten (100100228)
+
+Einstellungen konnten nicht geladen werden (100100264)
+Die Einstellungen für den Mandanten 999 (MOCK_TEST) und den Frachtführer DHL Weltpaket (DPA) konnten nicht geladen werden.
+Prüfen sie in den V-LOG Grundeinstellungen, ob diese Kombination eingerichtet ist.</package_fehlertext>
+      <print_templates_attributes>DPA:Label</print_templates_attributes>
+      <package_default_filename>TEST-ORDER-0001</package_default_filename>
+      <current_document_attribute_key>DPA</current_document_attribute_key>
+      <current_document_attribute_value>Label</current_document_attribute_value>
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+        <validation />
+        <appliedrules collection="true">
+          <collection_index>1</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules_count>1</appliedrules_count>
+      </appliedrules>
+      <appliedrules_count>1</appliedrules_count>
+    </package>
+    <package_count>1</package_count>
+    <sub_carrier />
+    <time_beforeinit>11.13.2026 12:38:13.268</time_beforeinit>
+    <unmapped_frachtfuehrer>DHL</unmapped_frachtfuehrer>
+    <unmapped_send_mandant>999</unmapped_send_mandant>
+    <processid>00000000-0000-4000-8000-000000000000</processid>
+    <tmp_frachtfuehrer>DHL</tmp_frachtfuehrer>
+    <tmp_send_mandant>999</tmp_send_mandant>
+    <tmp_send_frankaturkz />
+    <shipment_status>900</shipment_status>
+    <send_versanddatum>11/13/2026 12:38:13</send_versanddatum>
+    <dpa_abs_land_kurz>DE</dpa_abs_land_kurz>
+    <dpa_abs_iso>276</dpa_abs_iso>
+    <dpa_abs_land>Germany</dpa_abs_land>
+    <dpa_abs_adr_01>Example Logistics GmbH</dpa_abs_adr_01>
+    <dpa_abs_adr_02 />
+    <dpa_abs_adr_03 />
+    <dpa_abs_adr_04 />
+    <dpa_abs_adr_05 />
+    <dpa_abs_adr_06 />
+    <dpa_abs_adr_07 />
+    <dpa_abs_adr_08 />
+    <dpa_abs_adr_09 />
+    <dpa_abs_adr_10 />
+    <dpa_abs_addressline_02 />
+    <dpa_abs_addressline_03 />
+    <dpa_abs_addressline_04 />
+    <dpa_abs_addressline_05 />
+    <dpa_abs_strasse>Musterstrasse</dpa_abs_strasse>
+    <dpa_abs_hnr>1</dpa_abs_hnr>
+    <dpa_abs_plz>12345</dpa_abs_plz>
+    <dpa_abs_ort>Musterstadt</dpa_abs_ort>
+    <dpa_abs_staat />
+    <dpa_abs_mail>sender@example.invalid</dpa_abs_mail>
+    <dpa_abs_telefon>+49 30 00000000</dpa_abs_telefon>
+    <dpa_abs_telefax>+49 30 00000001</dpa_abs_telefax>
+    <dpa_abs_mobile />
+    <dpa_abs_steuernr />
+    <dpa_abs_vat_nr>DE000000000</dpa_abs_vat_nr>
+    <dpa_abs_eori_nr />
+    <dpa_abs_homepage />
+    <dpa_abs_kdnr />
+    <dpa_abs_hmrc_nr />
+    <dpa_abs_ioss_nr />
+    <dpa_abs_voec_nr />
+    <dpa_abs_registrationtype_01 />
+    <dpa_abs_registrationnr_01 />
+    <dpa_abs_registrationtype_02 />
+    <dpa_abs_registrationnr_02 />
+    <dpa_abs_registrationtype_03 />
+    <dpa_abs_registrationnr_03 />
+    <dpa_abs_registrationtype_04 />
+    <dpa_abs_registrationnr_04 />
+    <dpa_abs_registrationtype_05 />
+    <dpa_abs_registrationnr_05 />
+    <abs_land_kurz>DE</abs_land_kurz>
+    <abs_iso>276</abs_iso>
+    <abs_land>Germany</abs_land>
+    <abs_adr_01>Example Logistics GmbH</abs_adr_01>
+    <abs_adr_02 />
+    <abs_adr_03 />
+    <abs_adr_04 />
+    <abs_adr_05 />
+    <abs_adr_06 />
+    <abs_adr_07 />
+    <abs_adr_08 />
+    <abs_adr_09 />
+    <abs_adr_10 />
+    <abs_addressline_02 />
+    <abs_addressline_03 />
+    <abs_addressline_04 />
+    <abs_addressline_05 />
+    <abs_strasse>Musterstrasse</abs_strasse>
+    <abs_hnr>1</abs_hnr>
+    <abs_plz>12345</abs_plz>
+    <abs_ort>Musterstadt</abs_ort>
+    <abs_staat />
+    <abs_mail>sender@example.invalid</abs_mail>
+    <abs_telefon>+49 30 00000000</abs_telefon>
+    <abs_telefax>+49 30 00000001</abs_telefax>
+    <abs_mobile />
+    <abs_steuernr />
+    <abs_vat_nr>DE000000000</abs_vat_nr>
+    <abs_eori_nr />
+    <abs_homepage />
+    <abs_kdnr />
+    <abs_hmrc_nr />
+    <abs_ioss_nr />
+    <abs_voec_nr />
+    <abs_registrationtype_01 />
+    <abs_registrationnr_01 />
+    <abs_registrationtype_02 />
+    <abs_registrationnr_02 />
+    <abs_registrationtype_03 />
+    <abs_registrationnr_03 />
+    <abs_registrationtype_04 />
+    <abs_registrationnr_04 />
+    <abs_registrationtype_05 />
+    <abs_registrationnr_05 />
+    <abs_adr_isdeviantsender>False</abs_adr_isdeviantsender>
+    <combined_empf_adr_01_02>Max Mustermann</combined_empf_adr_01_02>
+    <empf_countryenrichmentsucceeded>True</empf_countryenrichmentsucceeded>
+    <empf_iso>724</empf_iso>
+    <empf_land>Spain</empf_land>
+    <abs_countryenrichmentsucceeded>True</abs_countryenrichmentsucceeded>
+    <ret_countryenrichmentsucceeded>False</ret_countryenrichmentsucceeded>
+    <zusatz_countryenrichmentsucceeded>False</zusatz_countryenrichmentsucceeded>
+    <imp_countryenrichmentsucceeded>False</imp_countryenrichmentsucceeded>
+    <dpa_abs_countryenrichmentsucceeded>True</dpa_abs_countryenrichmentsucceeded>
+    <thirdparty_countryenrichmentsucceeded>False</thirdparty_countryenrichmentsucceeded>
+    <exp_countryenrichmentsucceeded>False</exp_countryenrichmentsucceeded>
+    <paketshop_countryenrichmentsucceeded>False</paketshop_countryenrichmentsucceeded>
+    <abhol_countryenrichmentsucceeded>False</abhol_countryenrichmentsucceeded>
+    <document_count_total>0</document_count_total>
+    <send_regioncode>2</send_regioncode>
+    <foreign_territory_zone />
+    <send_submandant />
+    <send_anz_beforesplit>1</send_anz_beforesplit>
+    <gg_anzpos_gesamt>0</gg_anzpos_gesamt>
+    <shipment_contains_dg_or_lq>False</shipment_contains_dg_or_lq>
+    <lq_anzpos_gesamt>0</lq_anzpos_gesamt>
+    <shipment_contains_only_lq>True</shipment_contains_only_lq>
+    <zoll_anzpos_gesamt>0</zoll_anzpos_gesamt>
+    <combined_send_2n_prodcode>18</combined_send_2n_prodcode>
+    <combined_send_versandart>1</combined_send_versandart>
+    <combined_send_ident_prodcode_01>0</combined_send_ident_prodcode_01>
+    <combined_send_ident_prodcode_02>0</combined_send_ident_prodcode_02>
+    <cod_consolidatevalueonfirstpackage>False</cod_consolidatevalueonfirstpackage>
+    <dg_or_lq_service>False</dg_or_lq_service>
+    <send_gewichtgesamt>2.32</send_gewichtgesamt>
+    <int_mappingdone>True</int_mappingdone>
+    <time_afterinit>11.13.2026 12:38:13.304</time_afterinit>
+    <receiver_is_freetradeareaeu>True</receiver_is_freetradeareaeu>
+    <sender_is_freetradeareaeu>True</sender_is_freetradeareaeu>
+    <int_shippingsoftware>printed by V-LOG</int_shippingsoftware>
+    <vlog_useragent>Vlog-Agent/VLOG-6</vlog_useragent>
+    <time_beforevalidation>11.13.2026 12:38:13.304</time_beforevalidation>
+    <dpa_verfahren>53</dpa_verfahren>
+    <address_combined>Max Mustermann</address_combined>
+    <empf_hnr>1</empf_hnr>
+    <dpa_empf_land_kurz>ES</dpa_empf_land_kurz>
+    <dpa_needs_customs_validation>False</dpa_needs_customs_validation>
+    <mhp>
+      <validation>
+        <appliedrules collection="true">
+          <collection_index>1</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>2</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>3</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>4</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>5</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules_count>5</appliedrules_count>
+      </validation>
+    </mhp>
+    <label_generation_errors collection="true">
+      <collection_index>1</collection_index>
+      <id>100100264</id>
+      <details />
+      <text>Einstellungen konnten nicht geladen werden</text>
+      <hint>Die Einstellungen für den Mandanten 999 (MOCK_TEST) und den Frachtführer DHL Weltpaket (DPA) konnten nicht geladen werden.
+Prüfen sie in den V-LOG Grundeinstellungen, ob diese Kombination eingerichtet ist.</hint>
+      <severity>ERROR</severity>
+    </label_generation_errors>
+    <label_generation_errors collection="true">
+      <collection_index>2</collection_index>
+      <id>100100264</id>
+      <details />
+      <text>Einstellungen konnten nicht geladen werden</text>
+      <hint>Die Einstellungen für den Mandanten 999 (MOCK_TEST) und den Frachtführer DHL Weltpaket (DPA) konnten nicht geladen werden.
+Prüfen sie in den V-LOG Grundeinstellungen, ob diese Kombination eingerichtet ist.</hint>
+      <severity>ERROR</severity>
+    </label_generation_errors>
+    <label_generation_errors_count>2</label_generation_errors_count>
+    <send_kolli_id>1000001</send_kolli_id>
+    <send_shipmentreference>1000001</send_shipmentreference>
+    <errorlabelheader>Fehleretikett</errorlabelheader>
+    <errorlabelsubheader>Achtung es wurden Fehler festgestellt</errorlabelsubheader>
+    <shipment_fehlertext>Ungültige Sendungsdaten (100100228)
+
+Ungültige Sendungsdaten (100100228)
+
+Einstellungen konnten nicht geladen werden (100100264)
+Die Einstellungen für den Mandanten 999 (MOCK_TEST) und den Frachtführer DHL Weltpaket (DPA) konnten nicht geladen werden.
+Prüfen sie in den V-LOG Grundeinstellungen, ob diese Kombination eingerichtet ist.</shipment_fehlertext>
+    <time_beforeprint>11.13.2026 12:38:13.335</time_beforeprint>
+    <time_afterprint>11.13.2026 12:38:13.829</time_afterprint>
+    <appliedrules collection="true">
+      <collection_index>1</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>1</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>2</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>2</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>3</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>3</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>3</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>4</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>3</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>4</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>4</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>5</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>3</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>4</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>5</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>5</appliedrules_count>
+    </appliedrules>
+    <appliedrules_count>5</appliedrules_count>
+  </shipment>
+  <shipment_count>1</shipment_count>
+  <processid>00000000-0000-4000-8000-000000000000</processid>
+  <language>de</language>
+  <command>Label:Print</command>
+  <mhp>
+    <endpoint>
+      <webservice>
+        <configurationid>00000000-0000-4000-8000-000000000000</configurationid>
+      </webservice>
+    </endpoint>
+  </mhp>
+</workitem>

@@ -1,0 +1,7 @@
+<workitem>
+  <mhp>
+    <error>
+      <message>701 is no valid command. Please use the format attribute:value (i.e.: F-COST:default).</message>
+    </error>
+  </mhp>
+</workitem>

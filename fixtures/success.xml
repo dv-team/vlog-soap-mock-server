@@ -1,0 +1,434 @@
+<workitem>
+  <shipment collection="true">
+    <collection_index>1</collection_index>
+    <send_mandant>701</send_mandant>
+    <int_arbeitsplatz>MOCK-PC01</int_arbeitsplatz>
+    <send_referenznr_01>TEST-ORDER-0001</send_referenznr_01>
+    <send_referenznr_02>TEST-ORDER-0002</send_referenznr_02>
+    <send_referenznr_03>TEST-ORDER-0001</send_referenznr_03>
+    <send_referenznr_05>TEST-ORDER-0002</send_referenznr_05>
+    <send_anz>1</send_anz>
+    <frachtfuehrer>DPA</frachtfuehrer>
+    <empf_kdnr>100000</empf_kdnr>
+    <empf_adr_01>Max Mustermann</empf_adr_01>
+    <empf_adr_02 />
+    <empf_strasse>Musterstr.</empf_strasse>
+    <empf_ort>Musterstadt</empf_ort>
+    <empf_plz>12345</empf_plz>
+    <empf_land_kurz>ES</empf_land_kurz>
+    <empf_steuernr />
+    <empf_mail>recipient@example.invalid</empf_mail>
+    <empf_tel />
+    <package collection="true">
+      <collection_index>1</collection_index>
+      <send_referenznr_06 />
+      <send_gewichteinzel>2.32</send_gewichteinzel>
+      <send_2n_prodcode>18</send_2n_prodcode>
+      <send_hilf_11 />
+      <document_count>0</document_count>
+      <unmapped_send_2n_prodcode>STD</unmapped_send_2n_prodcode>
+      <processid>00000000-0000-4000-8000-000000000000</processid>
+      <tmp_send_2n_prodcode>STD</tmp_send_2n_prodcode>
+      <tmp_send_versandart />
+      <frachtfuehrer>DPA</frachtfuehrer>
+      <send_regioncode>2</send_regioncode>
+      <send_versandart>1</send_versandart>
+      <send_nr>1</send_nr>
+      <package_status>899</package_status>
+      <int_ok>True</int_ok>
+      <int_gesperrt>False</int_gesperrt>
+      <send_volumen>0</send_volumen>
+      <send_laenge_sorted>0</send_laenge_sorted>
+      <send_breite_sorted>0</send_breite_sorted>
+      <send_hoehe_sorted>0</send_hoehe_sorted>
+      <send_laenge>0</send_laenge>
+      <send_breite>0</send_breite>
+      <send_hoehe>0</send_hoehe>
+      <send_nr_beforesplit>1</send_nr_beforesplit>
+      <gg_anzpos>0</gg_anzpos>
+      <lq_anzpos>0</lq_anzpos>
+      <package_contains_only_lq>True</package_contains_only_lq>
+      <zoll_anzpos>0</zoll_anzpos>
+      <package_volumne>0</package_volumne>
+      <package_gurtmaß>0</package_gurtmaß>
+      <services>European - Weltpaket Premium</services>
+      <dpa_abs_iso>276</dpa_abs_iso>
+      <dpa_abs_land_kurz>DE</dpa_abs_land_kurz>
+      <dpa_abs_land>Deutschland</dpa_abs_land>
+      <mhp>
+        <validation>
+          <appliedrules collection="true">
+            <collection_index>1</collection_index>
+            <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+          </appliedrules>
+          <appliedrules_count>1</appliedrules_count>
+        </validation>
+      </mhp>
+      <versanddaten_id>1000001</versanddaten_id>
+      <send_type>DHL PAKET International Premium</send_type>
+      <dpa_send_type_short>PRE</dpa_send_type_short>
+      <dpa_product_code>67</dpa_product_code>
+      <dpa_typepostinglisttext>ORIGINAL</dpa_typepostinglisttext>
+      <dpa_typepostinglistbarcode>MOCK-EXAMPLE</dpa_typepostinglistbarcode>
+      <dpa_liste_status>00</dpa_liste_status>
+      <dpa_productkey>48626</dpa_productkey>
+      <send_artlademittel_text>Sonstiges / Autre Explication</send_artlademittel_text>
+      <dpa_features>Premium</dpa_features>
+      <dpa_service_left />
+      <dpa_service_right />
+      <dpa_send_directives>Rücksenden an den Absender/ Renvoyer à l´expéditeur</dpa_send_directives>
+      <dpa_feature_number>000</dpa_feature_number>
+      <dpa_list_service />
+      <dpa_list_transport />
+      <dpa_send_routing_id_text>(2L) ES 12345 + 67 000 000</dpa_send_routing_id_text>
+      <send_routing_id>2LES12345+67000000</send_routing_id>
+      <dpa_send_id_list>MOCK-EXAMPLE</dpa_send_id_list>
+      <dpa_send_id_text>MOCK-EXAMPLE</dpa_send_id_text>
+      <send_id>MOCK-EXAMPLE</send_id>
+      <dpa_abs_line_01>Example Logistics GmbH</dpa_abs_line_01>
+      <dpa_abs_line_02>Musterstrasse 1</dpa_abs_line_02>
+      <dpa_abs_line_03>12345 Musterstadt</dpa_abs_line_03>
+      <dpa_abs_line_04>GERMANY</dpa_abs_line_04>
+      <dpa_empf_line_01>Max Mustermann</dpa_empf_line_01>
+      <dpa_empf_line_02>Musterstr. 1</dpa_empf_line_02>
+      <dpa_empf_line_03>12345 Musterstadt</dpa_empf_line_03>
+      <dpa_empf_line_04>SPAIN</dpa_empf_line_04>
+      <dpa_empf_ret_line_01>Max Mustermann</dpa_empf_ret_line_01>
+      <dpa_empf_ret_line_02>Musterstr. 1</dpa_empf_ret_line_02>
+      <dpa_empf_ret_line_03>12345 Musterstadt</dpa_empf_ret_line_03>
+      <dpa_empf_ret_line_04>SPAIN</dpa_empf_ret_line_04>
+      <dpa_nachnahme_import_text />
+      <dpa_serviceclass>Premium</dpa_serviceclass>
+      <send_beschreibunginhalt />
+      <send_nachnahmewaehrung />
+      <dpa_einlieferungsstelle_text>Musterdepot</dpa_einlieferungsstelle_text>
+      <dpa_useupubarcode>True</dpa_useupubarcode>
+      <print_templates_attributes>DPA:Label15cm</print_templates_attributes>
+      <package_id>00000000-0000-4000-8000-000000000000</package_id>
+      <shipment_id>00000000-0000-4000-8000-000000000000</shipment_id>
+      <package_default_filename>TEST-ORDER-0001</package_default_filename>
+      <current_document_attribute_key>DPA</current_document_attribute_key>
+      <current_document_attribute_value>Label15cm</current_document_attribute_value>
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+        <validation />
+        <appliedrules collection="true">
+          <collection_index>1</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules_count>1</appliedrules_count>
+      </appliedrules>
+      <appliedrules_count>1</appliedrules_count>
+    </package>
+    <package_count>1</package_count>
+    <sub_carrier />
+    <time_beforeinit>11.13.2026 12:37:32.477</time_beforeinit>
+    <unmapped_frachtfuehrer>DHL</unmapped_frachtfuehrer>
+    <unmapped_send_mandant>701</unmapped_send_mandant>
+    <processid>00000000-0000-4000-8000-000000000000</processid>
+    <tmp_frachtfuehrer>DHL</tmp_frachtfuehrer>
+    <tmp_send_mandant>701</tmp_send_mandant>
+    <tmp_send_frankaturkz />
+    <shipment_status>800</shipment_status>
+    <send_versanddatum>11/13/2026 12:37:32</send_versanddatum>
+    <dpa_abs_land_kurz>DE</dpa_abs_land_kurz>
+    <dpa_abs_iso>276</dpa_abs_iso>
+    <dpa_abs_land>Germany</dpa_abs_land>
+    <dpa_abs_adr_01>Example Logistics GmbH</dpa_abs_adr_01>
+    <dpa_abs_adr_02 />
+    <dpa_abs_adr_03 />
+    <dpa_abs_adr_04 />
+    <dpa_abs_adr_05 />
+    <dpa_abs_adr_06 />
+    <dpa_abs_adr_07 />
+    <dpa_abs_adr_08 />
+    <dpa_abs_adr_09 />
+    <dpa_abs_adr_10 />
+    <dpa_abs_addressline_02 />
+    <dpa_abs_addressline_03 />
+    <dpa_abs_addressline_04 />
+    <dpa_abs_addressline_05 />
+    <dpa_abs_strasse>Musterstrasse</dpa_abs_strasse>
+    <dpa_abs_hnr>1</dpa_abs_hnr>
+    <dpa_abs_plz>12345</dpa_abs_plz>
+    <dpa_abs_ort>Musterstadt</dpa_abs_ort>
+    <dpa_abs_staat />
+    <dpa_abs_mail>sender@example.invalid</dpa_abs_mail>
+    <dpa_abs_telefon>+49 30 00000000</dpa_abs_telefon>
+    <dpa_abs_telefax>+49 30 00000001</dpa_abs_telefax>
+    <dpa_abs_mobile />
+    <dpa_abs_steuernr />
+    <dpa_abs_vat_nr>DE000000000</dpa_abs_vat_nr>
+    <dpa_abs_eori_nr />
+    <dpa_abs_homepage />
+    <dpa_abs_kdnr />
+    <dpa_abs_hmrc_nr />
+    <dpa_abs_ioss_nr />
+    <dpa_abs_voec_nr />
+    <dpa_abs_registrationtype_01 />
+    <dpa_abs_registrationnr_01 />
+    <dpa_abs_registrationtype_02 />
+    <dpa_abs_registrationnr_02 />
+    <dpa_abs_registrationtype_03 />
+    <dpa_abs_registrationnr_03 />
+    <dpa_abs_registrationtype_04 />
+    <dpa_abs_registrationnr_04 />
+    <dpa_abs_registrationtype_05 />
+    <dpa_abs_registrationnr_05 />
+    <abs_land_kurz>DE</abs_land_kurz>
+    <abs_iso>276</abs_iso>
+    <abs_land>Germany</abs_land>
+    <abs_adr_01>Example Logistics GmbH</abs_adr_01>
+    <abs_adr_02 />
+    <abs_adr_03 />
+    <abs_adr_04 />
+    <abs_adr_05 />
+    <abs_adr_06 />
+    <abs_adr_07 />
+    <abs_adr_08 />
+    <abs_adr_09 />
+    <abs_adr_10 />
+    <abs_addressline_02 />
+    <abs_addressline_03 />
+    <abs_addressline_04 />
+    <abs_addressline_05 />
+    <abs_strasse>Musterstrasse</abs_strasse>
+    <abs_hnr>1</abs_hnr>
+    <abs_plz>12345</abs_plz>
+    <abs_ort>Musterstadt</abs_ort>
+    <abs_staat />
+    <abs_mail>sender@example.invalid</abs_mail>
+    <abs_telefon>+49 30 00000000</abs_telefon>
+    <abs_telefax>+49 30 00000001</abs_telefax>
+    <abs_mobile />
+    <abs_steuernr />
+    <abs_vat_nr>DE000000000</abs_vat_nr>
+    <abs_eori_nr />
+    <abs_homepage />
+    <abs_kdnr />
+    <abs_hmrc_nr />
+    <abs_ioss_nr />
+    <abs_voec_nr />
+    <abs_registrationtype_01 />
+    <abs_registrationnr_01 />
+    <abs_registrationtype_02 />
+    <abs_registrationnr_02 />
+    <abs_registrationtype_03 />
+    <abs_registrationnr_03 />
+    <abs_registrationtype_04 />
+    <abs_registrationnr_04 />
+    <abs_registrationtype_05 />
+    <abs_registrationnr_05 />
+    <abs_adr_isdeviantsender>False</abs_adr_isdeviantsender>
+    <combined_empf_adr_01_02>Max Mustermann</combined_empf_adr_01_02>
+    <empf_countryenrichmentsucceeded>True</empf_countryenrichmentsucceeded>
+    <empf_iso>724</empf_iso>
+    <empf_land>Spain</empf_land>
+    <abs_countryenrichmentsucceeded>True</abs_countryenrichmentsucceeded>
+    <ret_countryenrichmentsucceeded>False</ret_countryenrichmentsucceeded>
+    <zusatz_countryenrichmentsucceeded>False</zusatz_countryenrichmentsucceeded>
+    <imp_countryenrichmentsucceeded>False</imp_countryenrichmentsucceeded>
+    <dpa_abs_countryenrichmentsucceeded>True</dpa_abs_countryenrichmentsucceeded>
+    <thirdparty_countryenrichmentsucceeded>False</thirdparty_countryenrichmentsucceeded>
+    <exp_countryenrichmentsucceeded>False</exp_countryenrichmentsucceeded>
+    <paketshop_countryenrichmentsucceeded>False</paketshop_countryenrichmentsucceeded>
+    <abhol_countryenrichmentsucceeded>False</abhol_countryenrichmentsucceeded>
+    <document_count_total>0</document_count_total>
+    <send_regioncode>2</send_regioncode>
+    <foreign_territory_zone />
+    <send_submandant />
+    <dpa_typepostinglist>Original</dpa_typepostinglist>
+    <dpa_disablecustomsarticlecount>FALSE</dpa_disablecustomsarticlecount>
+    <dpa_teilnahme>00</dpa_teilnahme>
+    <dpa_usewarenpost>FALSE</dpa_usewarenpost>
+    <carrier_automaticupload_usepassivemode>FALSE</carrier_automaticupload_usepassivemode>
+    <carrier_automaticupload_useupload>TRUE</carrier_automaticupload_useupload>
+    <dpa_useitmatt>TRUE</dpa_useitmatt>
+    <dpa_useexternalsend_id>FALSE</dpa_useexternalsend_id>
+    <carrier_automaticupload_useasciimode>FALSE</carrier_automaticupload_useasciimode>
+    <dpa_einlieferungsstelle>0000</dpa_einlieferungsstelle>
+    <carrier_automaticupload_useproxy>FALSE</carrier_automaticupload_useproxy>
+    <multipackage_allowwithoutkolli>FALSE</multipackage_allowwithoutkolli>
+    <dpa_shipment_reference_key>Send_Referenznr_01</dpa_shipment_reference_key>
+    <dpa_barcodetype>asc mh10</dpa_barcodetype>
+    <dpa_usea4forcn23>FALSE</dpa_usea4forcn23>
+    <dpa_kundenkennung_upu>MOCK0</dpa_kundenkennung_upu>
+    <carrier_automaticupload_usekeyfile>FALSE</carrier_automaticupload_usekeyfile>
+    <dpa_uebergabeartcode>03</dpa_uebergabeartcode>
+    <dpa_sendidnumbergroupid>00000000-0000-4000-8000-000000000000</dpa_sendidnumbergroupid>
+    <dpa_useparcel>TRUE</dpa_useparcel>
+    <dpa_itmatt_icr_numbergroupid>00000000-0000-4000-8000-000000000000</dpa_itmatt_icr_numbergroupid>
+    <dpa_usetransportversicherung>FALSE</dpa_usetransportversicherung>
+    <dpa_usecod>FALSE</dpa_usecod>
+    <dpa_blattnummernumbergroupid>00000000-0000-4000-8000-000000000000</dpa_blattnummernumbergroupid>
+    <dpa_kundenkennung>MOCK0</dpa_kundenkennung>
+    <dpa_icr_nummernumbergroupid>00000000-0000-4000-8000-000000000000</dpa_icr_nummernumbergroupid>
+    <dpa_printlabel_selected>CommonLabel15cm</dpa_printlabel_selected>
+    <dpa_disablecustomsweightcheck>FALSE</dpa_disablecustomsweightcheck>
+    <dpa_gogreen>FALSE</dpa_gogreen>
+    <frachtfuehrer_text>DHL Weltpaket</frachtfuehrer_text>
+    <send_mandant_text>Example Logistics GmbH</send_mandant_text>
+    <send_anz_beforesplit>1</send_anz_beforesplit>
+    <gg_anzpos_gesamt>0</gg_anzpos_gesamt>
+    <shipment_contains_dg_or_lq>False</shipment_contains_dg_or_lq>
+    <lq_anzpos_gesamt>0</lq_anzpos_gesamt>
+    <shipment_contains_only_lq>True</shipment_contains_only_lq>
+    <zoll_anzpos_gesamt>0</zoll_anzpos_gesamt>
+    <combined_send_2n_prodcode>18</combined_send_2n_prodcode>
+    <combined_send_versandart>1</combined_send_versandart>
+    <combined_send_ident_prodcode_01>0</combined_send_ident_prodcode_01>
+    <combined_send_ident_prodcode_02>0</combined_send_ident_prodcode_02>
+    <cod_consolidatevalueonfirstpackage>False</cod_consolidatevalueonfirstpackage>
+    <dg_or_lq_service>False</dg_or_lq_service>
+    <send_gewichtgesamt>2.32</send_gewichtgesamt>
+    <int_mappingdone>True</int_mappingdone>
+    <time_afterinit>11.13.2026 12:37:32.487</time_afterinit>
+    <receiver_is_freetradeareaeu>True</receiver_is_freetradeareaeu>
+    <sender_is_freetradeareaeu>True</sender_is_freetradeareaeu>
+    <int_shippingsoftware>printed by V-LOG</int_shippingsoftware>
+    <vlog_useragent>Vlog-Agent/VLOG-6</vlog_useragent>
+    <time_beforevalidation>11.13.2026 12:37:32.487</time_beforevalidation>
+    <dpa_verfahren>53</dpa_verfahren>
+    <address_combined>Max Mustermann</address_combined>
+    <empf_hnr>1</empf_hnr>
+    <dpa_empf_land_kurz>ES</dpa_empf_land_kurz>
+    <dpa_needs_customs_validation>False</dpa_needs_customs_validation>
+    <mhp>
+      <validation>
+        <appliedrules collection="true">
+          <collection_index>1</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>2</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>3</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>4</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules collection="true">
+          <collection_index>5</collection_index>
+          <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+        </appliedrules>
+        <appliedrules_count>5</appliedrules_count>
+      </validation>
+    </mhp>
+    <time_aftervalidation>11.13.2026 12:37:32.516</time_aftervalidation>
+    <send_kolli_id>1000001</send_kolli_id>
+    <send_shipmentreference>1000001</send_shipmentreference>
+    <time_beforeprepare>11.13.2026 12:37:32.521</time_beforeprepare>
+    <shipment_store>True</shipment_store>
+    <dpa_useupubarcode>True</dpa_useupubarcode>
+    <dpa_shipment_reference>TEST-ORDER-0001</dpa_shipment_reference>
+    <dpa_gogreenlogoactive>False</dpa_gogreenlogoactive>
+    <dpa_barcodenametype>upus10</dpa_barcodenametype>
+    <currentdate>13.11.2026</currentdate>
+    <dpa_date_cn22>13-November-2026</dpa_date_cn22>
+    <dpa_einlieferungsstelle_text>Musterdepot</dpa_einlieferungsstelle_text>
+    <send_nachnahmebetrag>0</send_nachnahmebetrag>
+    <send_nachnahmewaehrung />
+    <abs_bank_holder />
+    <abs_bank_name />
+    <empf_vat_nr />
+    <empf_eori_nr />
+    <send_versandkosten>0</send_versandkosten>
+    <shipment_closing_status>100</shipment_closing_status>
+    <time_afterprepare>11.13.2026 12:37:32.525</time_afterprepare>
+    <shipment_id>00000000-0000-4000-8000-000000000000</shipment_id>
+    <time_beforeprint>11.13.2026 12:37:32.550</time_beforeprint>
+    <time_afterprint>11.13.2026 12:37:33.019</time_afterprint>
+    <shipment_fehlertext />
+    <appliedrules collection="true">
+      <collection_index>1</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>1</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>2</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>2</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>3</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>3</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>3</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>4</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>3</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>4</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>4</appliedrules_count>
+    </appliedrules>
+    <appliedrules collection="true">
+      <collection_index>5</collection_index>
+      <validation />
+      <appliedrules collection="true">
+        <collection_index>1</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>2</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>3</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>4</collection_index>
+      </appliedrules>
+      <appliedrules collection="true">
+        <collection_index>5</collection_index>
+        <ruletableid>00000000-0000-4000-8000-000000000000</ruletableid>
+      </appliedrules>
+      <appliedrules_count>5</appliedrules_count>
+    </appliedrules>
+    <appliedrules_count>5</appliedrules_count>
+  </shipment>
+  <shipment_count>1</shipment_count>
+  <processid>00000000-0000-4000-8000-000000000000</processid>
+  <language>de</language>
+  <command>Label:Print</command>
+  <mhp>
+    <endpoint>
+      <webservice>
+        <configurationid>00000000-0000-4000-8000-000000000000</configurationid>
+      </webservice>
+    </endpoint>
+  </mhp>
+</workitem>

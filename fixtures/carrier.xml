@@ -1,0 +1,61 @@
+<workitem>
+  <shipment collection="true">
+    <collection_index>1</collection_index>
+    <send_mandant>701</send_mandant>
+    <int_arbeitsplatz>MOCK-PC01</int_arbeitsplatz>
+    <send_referenznr_01>TEST-ORDER-0001</send_referenznr_01>
+    <send_referenznr_02>TEST-ORDER-0002</send_referenznr_02>
+    <send_referenznr_03>TEST-ORDER-0001</send_referenznr_03>
+    <send_referenznr_05>TEST-ORDER-0002</send_referenznr_05>
+    <send_anz>1</send_anz>
+    <frachtfuehrer>INVALID</frachtfuehrer>
+    <empf_kdnr>100000</empf_kdnr>
+    <empf_adr_01>Max Mustermann</empf_adr_01>
+    <empf_adr_02 />
+    <empf_strasse>Musterstr. 1</empf_strasse>
+    <empf_ort>Musterstadt</empf_ort>
+    <empf_plz>12345</empf_plz>
+    <empf_land_kurz>ES</empf_land_kurz>
+    <empf_steuernr />
+    <empf_mail>recipient@example.invalid</empf_mail>
+    <empf_tel />
+    <package collection="true">
+      <collection_index>1</collection_index>
+      <send_referenznr_06 />
+      <send_gewichteinzel>2,32</send_gewichteinzel>
+      <send_2n_prodcode>STD</send_2n_prodcode>
+      <send_hilf_11 />
+    </package>
+    <package_count>1</package_count>
+    <sub_carrier />
+    <time_beforeinit>11.13.2026 12:38:14.829</time_beforeinit>
+    <unmapped_frachtfuehrer>INVALID</unmapped_frachtfuehrer>
+    <unmapped_send_mandant>701</unmapped_send_mandant>
+    <processid>00000000-0000-4000-8000-000000000000</processid>
+    <tmp_frachtfuehrer>INVALID</tmp_frachtfuehrer>
+    <tmp_send_mandant>701</tmp_send_mandant>
+    <tmp_send_frankaturkz />
+  </shipment>
+  <shipment_count>1</shipment_count>
+  <processid>00000000-0000-4000-8000-000000000000</processid>
+  <language>de</language>
+  <command>Label:Print</command>
+  <mhp>
+    <endpoint>
+      <webservice>
+        <configurationid>00000000-0000-4000-8000-000000000000</configurationid>
+      </webservice>
+    </endpoint>
+    <error>
+      <message>Modulausführung fehlgeschlagen (100100003)
+Bei der Ausführung des Moduls '' (MHP.Framework.Common.Tasks.ChainTask) ist ein Fehler aufgetreten.
+ -&gt; Modulausführung fehlgeschlagen (100100003)
+    Bei der Ausführung des Moduls 'Schleife Sendungen' (MHP.Framework.Common.Tasks.ForEachTask) ist ein Fehler aufgetreten.
+     -&gt; Modulausführung fehlgeschlagen (100100003)
+        Bei der Ausführung des Moduls 'Schleife Sendungen' (MHP.Framework.Common.Tasks.ChainTask) ist ein Fehler aufgetreten.
+         -&gt; Modulausführung fehlgeschlagen (100100003)
+            Bei der Ausführung des Moduls 'Sendungsdruck' (MHP.Vlog.Common.Tasks.PrintShipmentTask) ist ein Fehler aufgetreten.</message>
+      <stacktrace>[VLOG stacktrace omitted: local installation details]</stacktrace>
+    </error>
+  </mhp>
+</workitem>

@@ -1,0 +1,37 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wor="http://mhp-net.de/services/workflowexecutor">
+			<soapenv:Header/>
+			<soapenv:Body>
+				<wor:Execute>
+					<wor:command>Label:Print</wor:command>
+					<wor:serializedWorkItem><![CDATA[<workitem>
+	<shipment collection="true">
+		<Send_Mandant>701</Send_Mandant>
+		<!--<Int_Arbeitsplatz>MOCK-RETURN-PC01</Int_Arbeitsplatz>-->
+		<Int_Arbeitsplatz>MOCK-PC01</Int_Arbeitsplatz>
+		<Send_ReferenzNr_01>TEST-ORDER-0001</Send_ReferenzNr_01>
+		<Send_ReferenzNr_02>TEST-ORDER-0002</Send_ReferenzNr_02>
+		<Send_ReferenzNr_03>TEST-ORDER-0001</Send_ReferenzNr_03>
+		<Send_ReferenzNr_05>TEST-ORDER-0002</Send_ReferenzNr_05>
+		<Send_Anz>1</Send_Anz>
+		<Frachtfuehrer>DHL</Frachtfuehrer>
+		<Empf_KdNr>100000</Empf_KdNr>
+		<Empf_Adr_01>Max Mustermann</Empf_Adr_01>
+		<Empf_Adr_02></Empf_Adr_02>
+		<Empf_Strasse>Musterstr. 1</Empf_Strasse>
+		<Empf_Ort>Musterstadt</Empf_Ort>
+		<Empf_PLZ>12345</Empf_PLZ>
+		<Empf_Land_Kurz>ES</Empf_Land_Kurz>
+		<Empf_SteuerNr></Empf_SteuerNr>
+		<Empf_Mail>recipient@example.invalid</Empf_Mail>
+		<Empf_Tel></Empf_Tel>
+		<package collection="true">
+			<Send_ReferenzNr_06></Send_ReferenzNr_06>
+			<Send_GewichtEinzel>2,32</Send_GewichtEinzel>
+			<Send_2N_ProdCode>STD</Send_2N_ProdCode>
+			<Send_Hilf_11></Send_Hilf_11>
+		</package>
+	</shipment>
+</workitem>]]></wor:serializedWorkItem>
+				</wor:Execute>
+			</soapenv:Body>
+		</soapenv:Envelope>

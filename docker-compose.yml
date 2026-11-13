@@ -1,0 +1,6 @@
+services:
+  vlog-mock:
+    build: .
+    ports:
+      - "${VLOG_PORT:-18080}:8080"
+    restart: unless-stopped
